@@ -6,8 +6,8 @@ import { TbMessage2Filled } from "react-icons/tb";
 function Footer() {
   return (
     <>
-      <section className="bg-zinc-100 flex justify-center pt-20 pb-5 items-center">
-        <div className="space-y-4">
+      <section className="bg-zinc-100 px-4 bg-[url('/more/13.jpg')] flex justify-center flex-col lg:flex-row pt-20 pb-5 lg:items-center">
+        <div className="space-y-4 ">
           <img width="75px" src="/more/logo1.png" alt="" />
           <h3 className="text-stone-800 text-4xl">Espresso Emporium</h3>
           <p className="text-black max-w-xl">
@@ -33,20 +33,19 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="flex justify-center flex-col items-start gap-4">
+        <div className="flex flex-col items-start gap-4">
           <h3 className="text-stone-800 text-4xl mt-6">Contact with Us</h3>
-          <input type="text" className="input w-2xs hover:border-yellow-500 hover:shadow-2xl" placeholder="Name" />
-          <input type="email" className="input w-2xs hover:border-yellow-500 hover:shadow-2xl" placeholder="Email" />
-          <textarea className="textarea hover:border-yellow-500 hover:shadow-2xl" placeholder="Message"></textarea>
+          <input type="text" className="hover:outline focus:outline-yellow-500 input w-2xs hover:outline-yellow-500 hover:shadow-2xl" placeholder="Name" />
+          <input type="email" className="hover:outline focus:outline-yellow-500 input w-2xs hover:outline-yellow-500 hover:shadow-2xl" placeholder="Email" />
+          <textarea className="hover:outline focus:outline-yellow-500 textarea hover:outline-yellow-500 hover:shadow-2xl" placeholder="Message"></textarea>
           <button className="btn rounded-full hover:border-yellow-500 hover:shadow-2xl border-2 border-stone-800">Send Message</button>
         </div>
       </section>
-      <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
+      <footer className="footer bg-[url('/more/24.jpg')] sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
         <aside>
-          <p>
-            Copyright © {new Date().getFullYear()} - All right reserved by ACME
-            Industries Ltd
-          </p>
+          <h4 className="text-xl text-white">
+            Copyright Espresso Emporium ! All Rights Reserved
+          </h4>
         </aside>
       </footer>
     </>
