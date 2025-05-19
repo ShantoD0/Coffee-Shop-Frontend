@@ -16,7 +16,7 @@ function Hero() {
           <p className="mb-5">
             It's coffee time - Sip & Savor - Relaxation in every sip! Get the nostalgia back!! Your companion of every moment!!! Enjoy the beautiful moments and make them memorable.
           </p>
-          <button className="btn btn-primary hover:bg-transparent hover:text-white hover:border-white outline-transparent hover:shadow-none text-black">Learn More</button>
+          <a href='#learn' className="btn btn-primary hover:bg-transparent hover:text-white hover:border-white outline-transparent hover:shadow-none text-black">Learn More</a>
         </div>
       </div>
     </div>

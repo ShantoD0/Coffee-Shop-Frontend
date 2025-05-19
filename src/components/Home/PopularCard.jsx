@@ -12,7 +12,7 @@ function PopularCard() {
             <span className="font-bold">Name: </span>Americano Coffee
           </p>
           <p>
-            <span className="font-bold">barista: </span>Mr. Matin Paul
+            <span className="font-bold">Taste: </span>Sweet and Hot
           </p>
           <p>
             <span className="font-bold">Price: </span>890tk
