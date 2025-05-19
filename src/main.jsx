@@ -8,6 +8,7 @@ import AddCoffee from "./components/Add Coffee/AddCoffee.jsx";
 import UpdateCoffee from "./Update Coffee/UpdateCoffee.jsx";
 import Details from "./Details/Details.jsx";
 import NotFound from "./NotFound/NotFound.jsx";
+import CoffeeProvider from "./contexts/CoffeeProvider.jsx";
 
 const router = createBrowserRouter([
   {
@@ -39,7 +40,10 @@ const router = createBrowserRouter([
 ]);
 
 createRoot(document.getElementById("root")).render(
+
   <StrictMode>
+    <CoffeeProvider>
     <RouterProvider router={router} />
+    </CoffeeProvider>
   </StrictMode>
 );
